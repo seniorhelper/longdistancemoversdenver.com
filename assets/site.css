@@ -68,3 +68,12 @@ footer p{margin:6px 0}
 .lt{color:#fed7aa}
 .ctext{font-weight:400;margin:0}
 .cap{caption-side:bottom;text-align:left;padding-top:8px}
+.agree-dlg{max-width:520px;width:calc(100% - 32px);border:0;border-radius:12px;padding:22px;color:var(--ink);box-shadow:0 20px 60px rgba(0,0,0,.35)}
+.agree-dlg::backdrop{background:rgba(11,29,54,.6)}
+.agree-dlg h2{margin:0 0 10px;font-size:21px}
+.agree-dlg ul{padding-left:20px;margin:0 0 10px}
+.agree-dlg li{margin:6px 0}
+.agree-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:8px}
+.agree-yes{background:var(--accent);color:#fff;border:0;border-radius:8px;padding:12px 18px;font:inherit;font-weight:800;cursor:pointer;min-height:44px}
+.agree-yes:hover{background:var(--accent-d)}
+.agree-no{background:#fff;color:var(--ink);border:1px solid #9aa8bb;border-radius:8px;padding:12px 18px;font:inherit;cursor:pointer;min-height:44px}
